@@ -1,0 +1,120 @@
+.nav{
+    display: flex;
+    background-color: #517992;
+    width: 100%;
+}
+
+.img{
+    margin: 10px;
+}
+
+li.navbar{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 60px;
+    color: white;
+}
+
+li.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+li.navbar a:hover{
+    color: rgb(166, 218, 239);
+}
+
+.navbar:last-child{
+    text-transform: capitalize;
+    border: 1px solid;
+    padding: 10px;
+    margin-left: 150px;
+    font-size: 24px;
+    word-spacing: 5px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #517992;
+    margin: 1px;
+    height: auto;
+}
+
+.pass{
+    margin: 20px 20px;
+    border: none;
+    width: 50%;
+    height: auto;
+}
+
+h1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    word-spacing: 5px;
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 15px 15px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.crime{
+    margin: 15px 15px;
+    padding: 50px 5px;
+    text-align: justify;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.submit{
+    background-color: #517992;
+    color: #fff;
+    border: 1px solid;
+    border-color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+button{
+    background-color: fff;
+    color:#517992;
+    border: 1px solid;
+    border-color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(166, 218, 239);
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#footer-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    list-style-type: none;
+}
+
+.up{
+    position: relative;
+    bottom: 20px;
+    left: 700px;
+}

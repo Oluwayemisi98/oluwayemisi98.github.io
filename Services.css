@@ -1,0 +1,55 @@
+.container{
+    background-color: rgb(227, 213, 213);
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.new{
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: black;
+    font-size: 40px;
+}
+
+span{
+    color: grey;
+    margin: 0px;
+}
+
+.help{
+    width: 50%;
+}
+
+.content{
+    width: 50%;
+}
+
+.dive{
+    text-transform: capitalize;
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    text-align: left;
+    word-spacing: 15px;
+    margin: 15px;
+}
+
+h5{
+    text-transform: capitalize;
+    color:black;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+h4{
+    text-transform: capitalize;
+    color: rgb(11, 11, 12);
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 20px;
+}
